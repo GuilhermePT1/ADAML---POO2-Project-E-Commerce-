@@ -1,15 +1,15 @@
 public class Produto {
-    private int id;
+    private String id;
     private String nome;
     private double preco;
 
-    public Produto(int id, String nome, double preco) {
+    public Produto(String id, String nome, double preco) {
         this.id = id;
         this.nome = nome;
         this.preco = preco;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
